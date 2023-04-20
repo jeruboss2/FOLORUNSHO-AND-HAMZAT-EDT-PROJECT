@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="anadig.html">
+    <link rel="stylesheet" href="">
+    <title>Multiplexing</title>
+</head>
+<body>
+    <nav class="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="muty.html">Multiplexing</a></li>
+            <li><a href="anadig.html">Transmission</a></li>
+        </ul>
+    </nav>
+
+    <div class="mplx">
+        <h4>MULTIPLEXING</h4>
+        
+        <p>
+            Multiplexing is a process that combines several signals for simultaneous transmission on 
+            one transmission channel. Most of the transmission systems in the telecommunications 
+            network contain more capacity than is required by a single user. It is economically 
+            feasible to utilize the available bandwidth of optical fiber or coaxial cable or a radio 
+            system in a single high-capacity system shared by multiple users. Sharing one media by 
+            multiple users is known as multiplexing. It is a technique employed in many different 
+            situations where different signals have to share a medium, circuit or channel. It enables 
+            more efficient use of circuits or facilities.
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    Multiplexing voice telephone calls means two or more conversations are sent 
+                    simultaneously over one circuit.
+                </li>
+
+                <li>
+                    Multiplexing data means two or more messages are simultaneously sent over one 
+                    circuit.
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            A Demultiplexer does the opposite of a multiplexer; it separates a multiplexed signal 
+            back into its separate signals, for distribution to multiple users.
+        </p>
+    </div>
+
+    <div class="typ">
+        <p>Types of Multiplexing</p>
+
+        <ol>
+            <li>Frequency Division Multiplexing (FDM)</li>
+            <li>Time Division Multiplexing (TDM)</li>
+        </ol>
+        
+        <div class="fdm">
+            <h5>Frequency Division Multiplexing (FDM)</h5>
+
+            <p>
+                FDM is an analog technique where each signal or device is allocated a separate range of 
+                frequencies to use on the channel. This is similar to AM radio, for example, where each 
+                radio station transmits its signal on a different carrier frequency (the allocated spectrum 
+                is 20 1100KHz, from 550KHz to 1650KHz, and that can accommodate 1100KHz/10KHz = 110 channels). 
+                The signals are all present on the medium at the same time but they don't interfere with each 
+                other because each one is modulated onto a different carrier frequency. This FDM technique is 
+                less efficient, requires more maintenance and is less flexible than TDM.
+            </p>
+        </div>
+
+        <div class="tdm">
+            <h5>Time Division Multiplexing (TDM)</h5>
+
+            <p>
+                TDM is a digital technique in which different signals take turns using the available channel. 
+                Each signal uses the entire bandwidth for a short time and then waits for its turn again. Each 
+                user channel uses a wider frequency band but only for a small fraction of time; each signal 
+                having its own timeslot, much like boxcars on a train where each car carries freight for one user. 
+                The difference is that the sequence of boxcars repeats itself endlessly. This method of TDM is used 
+                in high-capacity transmission systems such as optical line systems but also in digital cellular 
+                networks where we call it time-division multiple access (TDMA). One user occupies one time slot 
+                of a frame, and the time division principle allows multiple users to access the network at the same 
+                time using the same carrier frequency.
+            </p>
+        </div>
+
+
+    </div>
+</body>
+</html>
