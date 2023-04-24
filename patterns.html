@@ -33,43 +33,124 @@
       <i class="ri-close-line nav__menu close__btn"></i>
     </nav>
 
-    <div id="home" class="home container">
-      <h3>COMMUNICATION PATTERNS</h3>
+    <div id="home" class="home">
+      <div class="comun__head">
+        <img src="./comunication.jpg" alt="" class="comun__image" />
+        <div class="comun__title">
+          <h3>COMMUNICATION PATTERNS</h3>
 
-      <p>
-        Depending on the application, communication pattern can be one of the
-        following:
-      </p>
+          <p>
+            Depending on the application, communication pattern can be one of
+            the following:
+          </p>
+        </div>
+      </div>
+      <div class="container note">
+        <ul>
+          <div class="o-t-o__comunication">
+            <li><span> 1</span> One-to-one (1:1) communication:</li>
 
-      <ul>
-        <li>One-to-one (1:1) communication:</li>
+            <p>
+              This is the type of communication between one sender and one
+              receiver. It is also referred to as unicast communication.
+              Examples client server communication and web browsing.
+            </p>
 
-        <p>
-          This is the type of communication between one sender and one receiver.
-          It is also referred to as unicast communication. Examples client
-          server communication and web browsing.
+            <img
+              src="./Client-Server-Communication.png"
+              alt=""
+              class="c-s__comun-image"
+            />
+          </div>
+          <div class="o-t-o__comunication">
+            <li><span> 2</span> One-to-many (1:m) communication:</li>
+
+            <p>
+              In this case one sender communicates with more than one receiver.
+              This can either be broadcast where the sender communicates with
+              all the receivers or multicast when the sender communicates with
+              some group of the receivers
+            </p>
+
+            <div class="one-to-many__comun-img">
+              <div class="broadcast">
+                <div class="img_title">
+                  <img src="./broadcast.png" alt="" class="bc__img" />
+                  <span>Broadcast comunication</span>
+                </div>
+                <p>E.g a server comunicating with more than one host</p>
+              </div>
+              <div class="multcast">
+                <div class="img_title">
+                  <img
+                    src="./Multicast communications.gif"
+                    alt=""
+                    class="mc__img"
+                  />
+                  <span>multicast comunication</span>
+                </div>
+                <p>E.g. web or Internet TV (Streaming) video on demand</p>
+              </div>
+            </div>
+          </div>
+          <div class="o-t-o__comunication">
+            <li><span> 3</span> Many-to-one (m:1) Communication:</li>
+
+            <p>
+              This is the type of communication between many senders and only
+              one receiver. It is also commonly referred to as Concast.
+            </p>
+
+            <div class="multcast">
+              <div class="img_title">
+                <img src="./many to one.jpeg" alt="" class="mc__img" />
+                <span>Concast communications</span>
+              </div>
+              <p>
+                <span>E.g.</span> - statistics logging <br />
+                – sensor ‘fusion’ (plant or utility infrastructure monitoring,
+                wildlife tracking) <br />– coursework submission <br />
+                – not studied very much, except as a particular case of
+                many-to-many
+              </p>
+            </div>
+          </div>
+          <div class="o-t-o__comunication">
+            <li class="m-m__comun">
+              <span> 4</span> Many-to-many (m:m) communication also known as
+              multipeer communication
+            </li>
+            <div class="multcast">
+              <div class="img_title">
+                <img src="./many to many.jpeg" alt="" class="mc__img" />
+                <span>Multipeer communications</span>
+              </div>
+              <p>
+                <span>E.g.</span> – conferencing (usually all-to-all within a
+                group) <br />
+                – group teaching (all listen, maybe only subset speak)
+              </p>
+            </div>
+          </div>
+        </ul>
+        <p class="take__note">
+          Note: each member may be a sender, a receiver, or both. If no member
+          is a receiver, communication is pointless! After unicast, multicast is
+          one of the best recognized patterns.
         </p>
-
-        <li>One-to-many (1:m) communication:</li>
-
-        <p>
-          In this case one sender communicates with more than one receiver. This
-          can either be broadcast where the sender communicates with all the
-          receivers or multicast when the sender communicates with some group of
-          the receivers
-        </p>
-
-        <li>Many-to-one (m:1) Communication:</li>
-
-        <p>
-          This is the type of communication between many senders and only one
-          receiver. It is also commonly referred to as Concast.
-        </p>
-        <li></li>
-      </ul>
+      </div>
     </div>
 
-    <footer></footer>
+    <footer>
+      <a href="index.html" class="logo__link"
+        ><img src="./network.png" alt="" class="logo" />comp-network
+      </a>
+      <div>
+        <span>Developers</span>
+      <p>Folorunsho Oluwatimihin Isreal <br> Hamzat Mubarak</p>
+      </div>
+      <p>EDT-project 2023</p>
+    </footer>
 
     <script src="./index.js"></script>
   </body>

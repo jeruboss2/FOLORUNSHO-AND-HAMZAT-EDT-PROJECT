@@ -22,6 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  background-color: #fff;
 }
 
 .nav__item {
@@ -35,6 +36,7 @@ body {
   top: 4rem;
   background-color: #ffffff;
   padding: 1.3rem;
+  z-index: 1;
   transition: 0.5s all ease;
   display: none;
 }
@@ -169,6 +171,21 @@ body {
   margin: auto;
 }
 
+footer{
+  background-color: #eeeeee;
+  padding: 2rem 2rem 0;
+  padding-top: 1rem;
+}
+
+footer a{
+  margin-bottom: 2.5rem;
+}
+
+footer p{
+  color:#858484;
+  padding-bottom: 1rem;
+}
+
 @media screen and (min-width: 800px) {
   .nav__item {
     flex-direction: row;
@@ -192,6 +209,6 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .nav__item {
-    right: -5%;
+    right: 0;
   }
 }

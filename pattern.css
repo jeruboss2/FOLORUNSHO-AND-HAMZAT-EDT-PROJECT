@@ -2,3 +2,85 @@
   width: 80%;
   margin: auto;
 }
+
+img{
+    width: 100%;
+}
+.comun__image {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  bottom: 4rem;
+  z-index: -1;
+}
+
+.comun__title {
+  position: absolute;
+  top: 10rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* transform: translateX(70%); */
+  margin: auto;
+}
+
+.comun__title h3 {
+  font-size: 2.5rem;
+}
+.comun__title p {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.o-t-o__comunication li {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+}
+
+.o-t-o__comunication p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.6rem;
+}
+
+li.m-m__comun {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.6rem;
+}
+
+.c-s__comun-image{
+    margin: 0.5rem 0 1.6rem;
+}
+
+.broadcast, .multcast{
+    text-align: center;
+    margin: 0.5rem auto 1.6rem;
+}
+ .multcast{
+     margin-top: 5rem;
+     margin-bottom: 6rem;
+ }
+.img_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+img.mc__img {
+    width: 70%;
+}
+
+.take__note{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
