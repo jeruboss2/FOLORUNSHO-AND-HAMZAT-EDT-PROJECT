@@ -1,0 +1,67 @@
+.muty__img {
+  height: 30vh;
+  bottom: 0;
+}
+
+.comun__head {
+  background-color: #132a62b0;
+}
+.comun__title {
+  top: 9.7rem;
+  margin: auto;
+  width: 95%;
+}
+
+.comun__title h3 {
+  font-size: 2.3rem;
+}
+
+.head__muty {
+  margin: 5rem auto;
+}
+
+.head__muty p {
+  font-size: 0.89rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.head__muty p span {
+  font-weight: 800;
+}
+
+.head__muty ul {
+  margin: 2.5rem 1rem 1rem;
+}
+
+.head__muty ul li {
+  line-height: 1.4;
+  font-weight: 300;
+  list-style: disc;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.descritions span {
+  font-size: 0.79rem;
+  font-weight: 500;
+}
+
+.descritions {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.muty__type-title {
+  font-weight: 500;
+}
+
+.type ol {
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.type ol li {
+  list-style: decimal;
+  font-weight: 300;
+  font-size: 0.89rem;
+}

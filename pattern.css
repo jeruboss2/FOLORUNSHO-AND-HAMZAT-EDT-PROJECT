@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  margin: 5rem auto;
+  margin: auto;
 }
 
 img {
@@ -86,9 +86,10 @@ img.mc__img {
   font-style: italic;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 678px) {
   .container {
-    width: 60%;
+    width: 30rem;
+    margin: 5rem auto;
   }
   .comun__head {
     width: 100%;
@@ -144,4 +145,20 @@ img.mc__img {
     font-size: 0.9rem;
     width: 30%;
   }
+
+  .multcast p {
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 0.9rem;
+    width: 50%;
+  }
+
+  .img_title span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 1rem;
+  }
+
 }
