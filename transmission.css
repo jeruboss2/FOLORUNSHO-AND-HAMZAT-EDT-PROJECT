@@ -1,0 +1,96 @@
+img.comun__image.muty__img {
+  height: 45vh;
+  bottom: 0;
+}
+
+p.first__title {
+  font-weight: 399;
+  font-size: 0.94rem;
+  margin-top: 2.5rem;
+}
+
+.data {
+  margin-left: 2.5rem;
+}
+
+.data p {
+  font-size: 0.87rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+.data .group {
+  font-weight: 300;
+  margin-left: 1rem;
+  font-size: 0.89rem;
+}
+
+.data span {
+  font-size: 0.99rem;
+  font-weight: 600;
+}
+
+.data ul {
+  font-size: 0.96rem;
+  font-weight: 300;
+  margin-left: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.explanation {
+  font-size: 0.96rem;
+  font-weight: 300;
+  margin-bottom: 1.8rem;
+}
+
+.signals {
+  margin-bottom: 1.8rem;
+}
+
+.signals span {
+  font-size: 0.99rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+}
+
+.signals p {
+  font-size: 0.87rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+.a-and-d__transmission P {
+  margin-bottom: 1.8rem;
+}
+
+.combination__title {
+  text-decoration: underline;
+}
+
+.a-and-d__combination ul {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.a-and-d__combination ul li p span {
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.a-and-d__combination ul li p {
+  font-size: 0.87rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+.a-and-d__combination ul li span {
+  font-size: 0.87rem;
+  font-weight: 300;
+  margin-left: 1.8rem;
+}
+
+
+.a-and-d__combination ul li {
+  list-style: decimal;
+  margin-bottom: 1.8rem;
+}
