@@ -18,6 +18,9 @@ body {
   background-color: #fff;
 }
 
+img{
+  width: 100%;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -165,10 +168,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .dev__pic {
-  margin: auto;
+  width: 70%;
 }
 
 footer{
