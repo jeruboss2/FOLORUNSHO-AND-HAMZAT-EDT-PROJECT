@@ -218,6 +218,10 @@ footer p{
   .nav__menu {
     display: none;
   }
+
+  .dev__pic {
+  width:40%;
+}
 }
 @media screen and (min-width: 1024px) {
   .nav__item {
