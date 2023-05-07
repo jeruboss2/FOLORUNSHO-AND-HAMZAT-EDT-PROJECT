@@ -18,7 +18,7 @@ body {
   background-color: #fff;
 }
 
-img{
+img {
   width: 100%;
 }
 .nav {
@@ -172,21 +172,21 @@ img{
 }
 
 .dev__pic {
-  width:70%;
+  width: 70%;
 }
 
-footer{
+footer {
   background-color: #edf7ff;
   padding: 2rem 2rem 0;
   padding-top: 1rem;
 }
 
-footer a{
+footer a {
   margin-bottom: 2.5rem;
 }
 
-footer p{
-  color:#858484;
+footer p {
+  color: #858484;
   padding-bottom: 1rem;
 }
 
@@ -195,7 +195,7 @@ footer p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -220,13 +220,11 @@ footer p{
   }
 
   .dev__pic {
-  width:40%;
-}
+    width: 40%;
+  }
 }
 @media screen and (min-width: 1024px) {
   .nav__item {
     right: 0;
   }
 }
-
-
